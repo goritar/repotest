@@ -13,7 +13,6 @@ public class tesGitHub {
         for (int i = 0; i <arr.length ; i++) {
             System.out.println("введите "+ (i+1) + "й элемент массива:");
             arr[i] = sc.nextInt();
-          //  ffjybkjkm;mlkgkjbkj
         }
         Arrays.sort (Arrays.copyOf(arr,(int)(arr.length*1.5)));
         System.out.println(Arrays.toString(arr));
